@@ -1,0 +1,55 @@
+{% load static %}
+  <footer id="footer" class="footer">
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="{% url 'home' %}" class="logo d-flex align-items-center">
+            <span class="sitename">FineDine</span>
+          </a>
+          <p>Finedine is where elegance meets the plate. Guided by Executive Chef Gabriel Turner, we are dedicated to crafting sophisticated, unforgettable dining moments using only the freshest, finest ingredients. Experience culinary perfection and dedicated service in our refined setting.</p>
+          <div class="social-links d-flex mt-4">
+            <a href="https://x.com/" target="_blank"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.facebook.com/facebook/" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/instagram/?hl=en" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#chefs">Chefs</a></li>
+            <li><a href="#events">Event</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>Defence,Karachi,</p>
+          <p>Pakistan</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+1 (617) 555-1234</span></p>
+          <p><strong>Email:</strong> <span>finedine@gmail.com</span></p>
+        </div>
+      </div>
+    </div>
+    <div class="container copyright text-center mt-4">
+      <script>document.write(new Date().getFullYear());</script><p>©<span>Copyright</span> <strong class="px-1 sitename">FineDine</strong> <span>All Rights Reserved</span></p>
+    </div>
+  </footer>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- Preloader -->
+  <div id="preloader"></div>
+  <!-- JS Files -->
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+  <script src="{% static 'vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'vendor/imagesloaded/imagesloaded.pkgd.min.js' %}"></script>
+  <script src="{% static 'vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <!-- Main JS File -->
+  <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+# Set default handling for text files
+* text=auto
+
+# Explicitly enforce LF line endings for common web and script files
+# This is best for cross-platform consistency.
+*.css text eol=lf
+*.js text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.scss text eol=lf
+*.txt text eol=lf
